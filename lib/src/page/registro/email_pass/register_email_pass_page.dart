@@ -122,7 +122,7 @@ class _RegisterEmailPassPageState extends State<RegisterEmailPassPage> {
             hintText: 'Nombres',
             border: InputBorder.none,
             contentPadding: const EdgeInsets.all(15),
-            hintStyle: TextStyle(color: MyColors.cAzulLogin.withOpacity(0.3)),
+            // hintStyle: TextStyle(color: MyColors.cAzulLogin.withOpacity(0.3)),
             prefixIcon: Icon(
               Icons.person,
               color: MyColors.cAzulLogin,
@@ -145,7 +145,6 @@ class _RegisterEmailPassPageState extends State<RegisterEmailPassPage> {
             hintText: 'Apellidos',
             border: InputBorder.none,
             contentPadding: const EdgeInsets.all(15),
-            hintStyle: TextStyle(color: MyColors.cAzulLogin.withOpacity(0.3)),
             prefixIcon: Icon(
               Icons.person,
               color: MyColors.cAzulLogin,
@@ -167,7 +166,6 @@ class _RegisterEmailPassPageState extends State<RegisterEmailPassPage> {
             hintText: 'Email',
             border: InputBorder.none,
             contentPadding: const EdgeInsets.all(15),
-            hintStyle: TextStyle(color: MyColors.cAzulLogin.withOpacity(0.3)),
             prefixIcon: Icon(
               Icons.email_rounded,
               color: MyColors.cAzulLogin,
@@ -190,7 +188,6 @@ class _RegisterEmailPassPageState extends State<RegisterEmailPassPage> {
             hintText: 'Contraseña',
             border: InputBorder.none,
             contentPadding: const EdgeInsets.all(15),
-            hintStyle: TextStyle(color: MyColors.cAzulLogin.withOpacity(0.3)),
             prefixIcon: Icon(
               Icons.password,
               color: MyColors.cAzulLogin,

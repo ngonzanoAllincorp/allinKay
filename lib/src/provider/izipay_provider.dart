@@ -10,7 +10,7 @@ import '../utils/shared_pref.dart';
 import 'package:http/http.dart' as http;
 
 class IzipayProvider {
-  final String _url = Environment.apiRifas;
+  final String _url = Environment.apiAllinKay;
   late BuildContext context;
   Users? sessionUser;
   Users? user;

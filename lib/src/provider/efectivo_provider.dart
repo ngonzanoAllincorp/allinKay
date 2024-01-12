@@ -12,7 +12,7 @@ import '../utils/shared_pref.dart';
 
 class EfectivoiProvider {
   SharedPref _sharedPref = SharedPref();
-  final String _url = Environment.apiRifas;
+  final String _url = Environment.apiAllinKay;
 
   BuildContext? context;
   Users? user;

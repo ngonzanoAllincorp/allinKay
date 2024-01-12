@@ -11,7 +11,7 @@ import '../models/user.dart';
 import '../utils/shared_pref.dart';
 
 class UsersProvider extends ChangeNotifier {
-  final String _url = Environment.apiRifas;
+  final String _url = Environment.apiAllinKay;
   final String _api = '/api/users';
 
   BuildContext? context;

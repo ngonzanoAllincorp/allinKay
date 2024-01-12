@@ -14,5 +14,5 @@ class Constante {
       "https://firebasestorage.googleapis.com/v0/b/rifas-60f30.appspot.com/o/img_const%2F01-img-corver-five-tfx2-wp-gris-amarillo-guante-de-moto-trail-aventura.png?alt=media&token=1ff21c4a-8669-4928-970c-af299776c59a";
 
   static const String imgDefect =
-      'https://firebasestorage.googleapis.com/v0/b/rifas-60f30.appspot.com/o/img_const%2Fapple.png?alt=media&token=c55f7003-534e-45c3-b827-76eb23d9374b';
+      'https://icons.iconarchive.com/icons/fa-team/fontawesome/256/FontAwesome-House-User-icon.png';
 }

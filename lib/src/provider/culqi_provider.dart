@@ -14,7 +14,7 @@ import '../models/yape_devolucion.dart';
 import '../utils/shared_pref.dart';
 
 class CulqiProvider {
-  final String _url = Environment.apiRifas;
+  final String _url = Environment.apiAllinKay;
   final String _api = '/api/culqi';
   late BuildContext context;
 

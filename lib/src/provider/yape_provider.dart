@@ -13,7 +13,7 @@ import '../models/yape_token.dart';
 import '../utils/shared_pref.dart';
 
 class YapeProvider {
-  final String _url = Environment.apiRifas;
+  final String _url = Environment.apiAllinKay;
   final String _api = '/api/yape';
   late BuildContext context;
   Users? sessionUser;

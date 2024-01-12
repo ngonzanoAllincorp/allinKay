@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:allincorp/src/page/login/login_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -187,7 +189,7 @@ class _LoginPageState extends State<LoginPage> {
                 padding: EdgeInsets.only(
                     top: size.height * 0.05, bottom: size.height * 0.02),
                 child: Text(
-                  'Crea una cuenta gratuita',
+                  'Continuar una cuenta gratuita',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 14,
@@ -251,21 +253,20 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               const SizedBox(height: 15),
-              // Platform.isIOS
-              //     ?
-              SizedBox(
-                width: size.width * 0.6,
-                height: 44,
-                child: SignInWithAppleButton(
-                    text: 'Iniciar con Apple',
-                    style: SignInWithAppleButtonStyle.white,
-                    borderRadius: const BorderRadius.all(Radius.circular(15.0)),
-                    iconAlignment: IconAlignment.left,
-                    onPressed: () {} //_con.signInWithApple,
-                    ),
-              )
-              // : SizedBox()
-              ,
+              Platform.isIOS
+                  ? SizedBox(
+                      width: size.width * 0.6,
+                      height: 44,
+                      child: SignInWithAppleButton(
+                        text: 'Iniciar con Apple',
+                        style: SignInWithAppleButtonStyle.white,
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(15.0)),
+                        iconAlignment: IconAlignment.left,
+                        onPressed: _con.signInWithApple,
+                      ),
+                    )
+                  : SizedBox(),
               // SizedBox(height: size.height * 0.02),
               // ValueListenableBuilder(
               //   valueListenable: _con.isCheckTC,
